@@ -1,0 +1,37 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/dashboard.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 20px; /* Adjust the margin for the heading */
+}
+
+.dashboard-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button.sign-out {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
